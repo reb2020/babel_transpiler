@@ -1,0 +1,21 @@
+{
+    "name": "reb/babel",
+    "description": "PHP Babel",
+    "keywords": ["web", "js", "transpiler"],
+    "homepage": "https://github.com/reb2020/babel_transpiler",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksandr Sokol",
+            "email": "reb2020@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "ext-v8js": ">=2.0.0"
+    },
+    "autoload": {
+        "psr-4": {"Babel\\Transpiler\\": "src/Babel"}
+    }
+}
